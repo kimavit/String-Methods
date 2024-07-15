@@ -11,3 +11,13 @@ for i in range(n):
         cnt += 1
 print(cnt)
 ````
+````ruby
+s = str(input())
+max = 0
+m = 0
+for i in range(len(s)):
+    if s.count(s[i]) >= max:
+        max = s.count(s[i])
+        m = s[i]
+print(m)
+````
