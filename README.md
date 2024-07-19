@@ -21,3 +21,9 @@ for i in range(len(s)):
         m = s[i]
 print(m)
 ````
+````ruby
+s = input()
+a = s.find ("h")
+b = s.rfind ("h")
+print(s.replace ((s[a:b+1]), ''))
+````
