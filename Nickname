@@ -1,0 +1,6 @@
+nick = input().strip()
+correct = "Incorrect"
+if nick.startswith('@') and 5 <= len (nick) <= 15:
+    if all(c.islower() or c.isdigit() for c in nick[1:]):
+        correct = "Correct"
+print(correct)
