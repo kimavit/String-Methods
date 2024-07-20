@@ -27,3 +27,18 @@ a = s.find ("h")
 b = s.rfind ("h")
 print(s.replace ((s[a:b+1]), ''))
 ````
+````ruby
+num = input()
+flag = 'NO'
+let = 'АВЕКМНОРСТУХ'
+if 9 <= len(num) <=10:
+    le = num[0] + num [4:6]
+    dig = num [1:4] + num[7:]
+    un = num[6]
+    if dig.isdigit() and un == "_":
+        flag = 'YES'
+    for i in le:
+        if i not in let:
+            flag = 'NO'
+print (flag)
+````
