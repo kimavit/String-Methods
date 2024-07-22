@@ -42,3 +42,13 @@ if 9 <= len(num) <=10:
             flag = 'NO'
 print (flag)
 ````
+````ruby
+n = int(input())
+s = input()
+script = 26
+for i in range (len(s)):
+    w = ord(s[i]) - n
+    if w < 97:
+        w += script
+    print(chr(w), end = " ")
+````
