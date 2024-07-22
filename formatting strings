@@ -1,0 +1,3 @@
+date, dollar, uan = [input()  for i in range (3)]
+s = 'On {0}: 1$ = {1}₽, 1¥ = {2}₽'.format (date, dollar, uan)
+print(s)
